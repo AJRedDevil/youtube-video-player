@@ -9,7 +9,11 @@ const VideoList = ({videos}) => {
     <VideoItem key={id} video={video} />
   ));
 
-  return listOfVideos;
+  return (
+    <Grid container spacing={10}>
+      {listOfVideos}
+    </Grid>
+  );
 };
 
 export default VideoList;
