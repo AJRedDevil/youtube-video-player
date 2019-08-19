@@ -20,6 +20,12 @@ class App extends React.Component {
     });
   };
 
+  onVideoSelect = video => {
+    this.setState({
+      selectedVideo: video,
+    });
+  };
+
   render() {
     const {videos, selectedVideo} = this.state;
     return (
@@ -33,7 +39,7 @@ class App extends React.Component {
               <VideoDetail video={selectedVideo} />
             </Grid>
             <Grid item xs={4}>
-              <VideoList videos={videos} />
+              <VideoList videos={videos} onVideoSelect={this.onVideoSelect} />
             </Grid>
           </Grid>
         </Grid>
