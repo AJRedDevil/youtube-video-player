@@ -18,3 +18,5 @@ Covered topics:
 
 Credit:
 Based on this [article](https://www.youtube.com/watch?v=VPVzx1ZOVuw).
+
+[Demo](https://ajreddevil-youtube-video-player.netlify.com/)
