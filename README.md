@@ -1,5 +1,7 @@
 # youtube-video-player
 
+## [Demo](https://ajreddevil-youtube-video-player.netlify.com/)
+
 Here, we are building YouTube Clone Application from Scratch using React.
 
 Setup:
@@ -18,5 +20,3 @@ Covered topics:
 
 Credit:
 Based on this [article](https://www.youtube.com/watch?v=VPVzx1ZOVuw).
-
-[Demo](https://ajreddevil-youtube-video-player.netlify.com/)
